@@ -10,10 +10,8 @@ This was my first foray into GTK and developing an application in C. I learnt GT
 ![image](https://user-images.githubusercontent.com/39940264/206885754-76f71acb-1124-479d-840a-f00621f43c33.png)  
 -Restart button that resets the instance of the game and clears board state.  
 -Quit button that kills the exe program and essentially simulates closing the app.  
-![image](https://user-images.githubusercontent.com/39940264/206885759-ec0ff22d-656f-49e6-851d-5fcacfa89db2.png)  
 -Game label to display current game mode.  
 -3 game mode selection buttons: Player vs Player mode, Player vs Computer mode, Player vs Dumb Computer mode.  
-![image](https://user-images.githubusercontent.com/39940264/206885888-8fc8388d-da84-4e3b-921b-7bc8a66f9b79.png)  
 -Game label to display current player turn.  
 ![image](https://user-images.githubusercontent.com/39940264/206885911-e497b341-fc45-4579-a52d-2ab7ebce2fbd.png)  
 -Game space changes to move selected depending on which player's turn (x -> player 1, o -> player 2)  
