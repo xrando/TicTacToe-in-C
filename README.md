@@ -1,6 +1,6 @@
 # TicTacToe-in-C
 Tic Tac Toe game with GUI. Player vs Player mode as well as Player vs Computer mode with computer being an AI utilizing the minimax algorithm. Written in C using GTK lib 4.0.
-Written during my undergraduate computing science course at the Singapore Institute of Technology, joint degree with the University Of Glasgow. This game was written for a presentation during my first year of study for a programming methodology course module.
+Written during my undergraduate computing science course at the Singapore Institute of Technology, joint degree with the University Of Glasgow. This game was written for my programming methodology project assignment during my first year of study.
 ##
 Started: October 1st, 2022  
 Finished: November 23, 2022
@@ -17,4 +17,9 @@ This was my first foray into GTK and developing an application in C. I learnt GT
 -Game space changes to move selected depending on which player's turn (x -> player 1, o -> player 2)  
 ![image](https://user-images.githubusercontent.com/39940264/206885936-023a30dd-4c65-409c-a8e0-20a851bce17d.png)  
 -Pop-up notification in event of player 1 winning / player 2 winning / game ends in a draw  
-## Player vs Player mode:  
+## Game Modes
+### Player vs Player mode:
+
+### Player vs Computer mode:
+
+### Player vs Dumb Computer Mode
