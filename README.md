@@ -35,5 +35,5 @@ gcc -o tictactoe tictactoe.c
 ### Player vs Player mode:
 
 ### Player vs Computer mode:
-
+Player will be playing a game of TicTacToe with an AI computer that utilizes the Minimax algorithm. The Minimax algorithm is a decision rule used in artificial intelligence, decision theory, game theory etc for minimizing the possible loss for a worst case scenario. In this game, the Minimax algorithm is being used to compute and find the best move the computer can possibly make to have the highest probability of winning.
 ### Player vs Dumb Computer Mode
