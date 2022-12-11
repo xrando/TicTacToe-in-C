@@ -33,7 +33,8 @@ gcc -o tictactoe tictactoe.c
 -Pop-up notification in event of player 1 winning / player 2 winning / game ends in a draw  
 ## Game Modes
 ### Player vs Player mode:
-
+2 Players can play a game of TicTacToe, player 1 being X and player 2 being O. When there is a end of game state (player 1 win / player 2 win / draw) then a popup window will notify players of game outcome.
 ### Player vs Computer mode:
 Player will be playing a game of TicTacToe with an AI computer that utilizes the Minimax algorithm. The Minimax algorithm is a decision rule used in artificial intelligence, decision theory, game theory etc for minimizing the possible loss for a worst case scenario. In this game, the Minimax algorithm is being used to compute and find the best move the computer can possibly make to have the highest probability of winning.
 ### Player vs Dumb Computer Mode
+Player will be playing a game of TicTacToe with a dumb AI computer that utilizes a modified version of the Minimax algorithm. This is to allow the player to have a chance to win since the minimax AI will either win / draw everytime and this will get annoying for the player. This is implemented by introducing the idea of a pity counter which is similar to the pity counter of how gacha games out in the market work. When the player loses 2 times, the program will kick in to generate a random move for the computer instead of calculating the best move for the computer using the minimax algorithm.
