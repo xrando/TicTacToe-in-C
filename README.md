@@ -6,6 +6,20 @@ Started: October 1st, 2022
 Finished: November 23, 2022
 ##
 This was my first foray into GTK and developing an application in C. I learnt GTK from the ground up and i've received my knowledge in C from my 1st trimester of studies. Due to the lack of documentation for the GTK library in C, researching and testing our various sample tutorial projects out in the market took me some time to grasp the overall functionality of GTK and this took me some time. After figuring out how to implement grids and buttons to represent the tictactoe board, I took some more time to figure out how to actually integrate this user interface with the backend logic of the game which consists of the normal player vs player game mode and then the player vs computer mode which is built upon utilizing the minimax algorithm.
+## Prerequisites / Installations
+### Building / Compiling Instructions
+Steps to install gcc compiler via MSYS2:
+```
+URL: https://packages.msys2.org/package/mingw-w64-x86_64-gcc
+```
+Steps to install GTK 4.0 library extension via MSYS2:
+```
+URL: https://stdin.top/posts/gtk4-on-windows/
+```
+Steps to Compile program with gcc compiler (Note: run this command in vscode / MSYS2 in the same directory containing the .c program file of this program):
+```
+gcc -o tictactoe tictactoe.c
+```
 ## User Interface:
 ![image](https://user-images.githubusercontent.com/39940264/206885754-76f71acb-1124-479d-840a-f00621f43c33.png)  
 -Restart button that resets the instance of the game and clears board state.  
