@@ -4,11 +4,8 @@ Written during my undergraduate computing science course at the Singapore Instit
 ##
 Started: October 1st, 2022  
 Finished: November 23, 2022
-##
-##
-This was my first foray into GTK and developing an application in C. I learnt GTK from the ground up and i've received my knowledge in C from my 1st trimester of studies. Due to the lack of documentation for the GTK library in C, researching and testing our various sample tutorial projects out in the market took me some time to grasp the overall functionality of GTK and this took me some time. After figuring out how to implement grids and buttons to represent the tictactoe board, I took some more time to figure out how to actually integrate this user interface with the backend logic of the game which consists of the normal player vs player game mode and then the player vs computer mode which is built upon utilizing the minimax algorithm.  
-##
-#User Interface:
+This was my first foray into GTK and developing an application in C. I learnt GTK from the ground up and i've received my knowledge in C from my 1st trimester of studies. Due to the lack of documentation for the GTK library in C, researching and testing our various sample tutorial projects out in the market took me some time to grasp the overall functionality of GTK and this took me some time. After figuring out how to implement grids and buttons to represent the tictactoe board, I took some more time to figure out how to actually integrate this user interface with the backend logic of the game which consists of the normal player vs player game mode and then the player vs computer mode which is built upon utilizing the minimax algorithm.
+## User Interface:
 ![image](https://user-images.githubusercontent.com/39940264/206885754-76f71acb-1124-479d-840a-f00621f43c33.png)  
 -Restart button that resets the instance of the game and clears board state.  
 -Quit button that kills the exe program and essentially simulates closing the app.  
